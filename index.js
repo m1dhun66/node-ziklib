@@ -1,8 +1,8 @@
 const ZKLib = require('node-zklib');
 
-const DEVICE_IP = '192.168.1.140';
-const DEVICE_PORT = 140;
-const MY_DEVICE_USER_ID = '420';
+const DEVICE_IP = 'yourip';
+const DEVICE_PORT = port;
+const MY_DEVICE_USER_ID = 'yournumber';
 
 const device = new ZKLib(
   DEVICE_IP,
